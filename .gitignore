@@ -1,17 +1,21 @@
-# Maven build output
+# --------- Backend: Maven & Spring Boot ---------
 /target/
-
-# Maven Wrapper
 .mvn/wrapper/maven-wrapper.jar
 
-# IDE files
+# --------- Frontend: Vite & React ---------
+/frontend/node_modules/
+/frontend/dist/
+/frontend/.env
+
+# --------- IDEs ---------
+# IntelliJ IDEA
 .idea/
 *.iml
 *.iws
 *.ipr
 
-# STS
-.apt_generated
+# Spring Tool Suite (STS)
+/.apt_generated
 .factorypath
 .springBeans
 .sts4-cache
@@ -28,9 +32,9 @@ build/
 # VS Code
 .vscode/
 
-# OS files
+# --------- OS files ---------
 .DS_Store
 
-# Logs and temp files
+# --------- Logs & temp files ---------
 *.log
 *.tmp
