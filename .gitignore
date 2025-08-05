@@ -1,7 +1,7 @@
 # --------- Backend: Maven & Spring Boot ---------
 /target/
 .mvn/wrapper/maven-wrapper.jar
-/backend/src/main/java/resources
+/backend/src/main/resources
 # --------- Frontend: Vite & React ---------
 /frontend/node_modules/
 /frontend/dist/
